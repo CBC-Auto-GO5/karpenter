@@ -26,3 +26,9 @@ jobs:
           project-version: 0.0.1
           detect-cli-params: --logging.level.detect=DEBUG --blackduck.offline.mode=false
           ref: main
+      - name: Scan with Coverity on Polaris
+        uses: https://github.com/cloudbees-io/coverity-polaris-sast-scan-code@v1
+        with:
+          server-url: ${{ vars.COVERITY_POLARIS_SERVER_URL }}
+          api-token: ${{ secrets.COVERITY_POLARIS_TOKEN }}
+          ref: main    
