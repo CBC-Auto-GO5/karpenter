@@ -8,7 +8,7 @@
 
 ![](website/static/banner.png)
 
-Karpenter is an open-source node provisioning project built for Kubernetes.
+Karpenter is an open-source node provisioning project built for Kuberntestetes.
 Karpenter improves the efficiency and cost of running workloads on Kubernetes clusters by:
 
 * **Watching** for pods that the Kubernetes scheduler has marked as unschedulable
