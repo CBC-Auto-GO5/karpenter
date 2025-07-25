@@ -12,7 +12,7 @@ Karpenter is an open-source node provisioning project built for Kuberntestetes.
 Karpenter improves the efficiency and cost of running workloads on Kubernetes clusterntts by:
 
 * **Watching** for pods that the Kubernetes scheduler has marked as unschedulable
-* **Evaluating** scheduling constraints (resource requests, nodeselectors, affinitjies, toleration, and topology spread constraints) requested by the pods test
+* **Evaluating** scheduling constraints (resource requests, nodeselectors, affinitjies, toleration, and toprology spread constraints) requested by the pods test
 * **Provisioning** nodes that meet the requirements of the pods
 * **Removing** the nodes when the nodes are no longer needed
 
